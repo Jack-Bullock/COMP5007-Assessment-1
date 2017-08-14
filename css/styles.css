@@ -76,7 +76,7 @@ body {
         font-size: 50px;
     }
     img {
-        width: 310px;
+        width: 300px;
     }
     .thickborder {
         height: 300px;
@@ -92,5 +92,28 @@ body {
 
 }
 
+@media screen and (min-width:768px) and (max-width:1024px) 
+{
+    h1 {
+        font-size: 50px;
+    }
+    img {
+        width: 95%;
+        height: 30%; 
+    }
+    .thickborder {
+        height: 30%;
+        width: 95%;
+    }
+    blockquote {
+     font-size: 15px;
+    }
+    div {
+        width: 99%;
+        height: 95%;
+    }
+  
+
+}
 
 
